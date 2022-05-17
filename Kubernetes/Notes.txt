@@ -1,0 +1,14 @@
+https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/
+https://minikube.sigs.k8s.io/docs/start/
+https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/
+https://kubernetes.io/docs/reference/kubectl/cheatsheet/
+
+minikube service --url <servince-name>
+kubectl get pods --show-labels
+kubectl api-resources
+
+
+
+
+
+

@@ -1,0 +1,89 @@
+DOCKER:
+What is docker and why its needed
+Difference between VM and docker
+What is a Container, image?
+How to persist data
+Types of docker networks and its importance
+How to create custom image
+Where to store docker images
+How to push image to dockerhub
+Why do we need docker-compose
+
+
+KUBERNETES:
+What is k8s and its architecture
+What are the features of Kubernetes?
+What is a pod in Kubernetes
+Daemon set
+Difference between rs and deployment
+Types of deployment and when to use wihch deployment
+Types of services
+What is taint and tolleration
+What is statefull set and when to use it
+How to pull image from private registry
+How to persist data in k8s
+
+
+ANSIBLE:
+How does Ansible work?
+which all modules u used in ansible
+how to run task with root user
+ansible facts
+how to store value in ansible
+what is ansible inventory and groups in inventory
+tags
+handler
+ansible vault and which encryption used here
+What is Ansible Galaxy
+
+
+JENKINS:
+why we need jenkins
+what is cicd
+job
+difference between c deployment and c delevery
+explain pipeline
+How do you store credentials in Jenkins securely
+how to schedule job every minute
+how we can link git to jenkins and pull code
+
+
+GIT AND GITHUB:
+what is VCS
+How will you create a git repository
+why we need gg
+steps to push file to github
+what is clone, pull, fetch and merge
+who to create new branch and delete it
+what is PR
+how to track commit history
+
+AWS:
+What is AWS
+Define and explain the three basic types of cloud services and the AWS products that are built based on them
+which all services u have used
+What is the relation between the Availability Zone and Region
+Which service is used to create Vm
+What are Key-Pairs in AWS
+What do you understand by stopping and terminating an EC2 Instance
+What do you understand by a Security Group
+What do you understand by a ASG
+what is AMI
+What are the advantages of AWS IAM
+Explain what S3 is
+What are the Storage Classes available in Amazon S3
+Why we need VPC and its components
+What is a DDoS attack, and what services can minimize them
+How can you recover/login to an EC2 instance for which you have lost the key
+What is Bucket Policy
+Different types of encryption in S3
+What are Routing policys in Route53
+
+
+TERRAFORM:
+Why we need terraform
+Most usefull terraform commands
+What is terraform init
+Terrafrom backend
+Provisionars in terraform
+Explain state file lockings

@@ -1,0 +1,25 @@
+CKA:
+k get no -ojsonpath='{.items[*].status.nodeInfo.osImage}'
+k exec -it bz -- nslookup 192-168-41-151.default.pod
+any change in kubelet config file, then systemctl daemon-reload + systemctl retart kubelet
+    jouranalctl -u kubelet
+
+complete -F __start_kubectl k
+
+Get the list of nodes in JSON format and store it in a file at /opt/outputs/nodes-z3444kd9.json.
+
+
+
+ETCDCTL_API=3 etcdctl --endpoints=https://127.0.0.1:2379 \
+  --cacert=/etc/kubernetes/pki/etcd/ca.crt --cert=/etc/kubernetes/pki/etcd/server.crt --key=/etc/kubernetes/pki/etcd/server.key \
+  snapshot save /opt/etcd-backup.db
+
+alias k=kubectl
+alias c=clear
+alias h=history
+complete -F __start_kubectl k
+k create clusterrole pvviewer-role --verb=list,get --resource=persistentvolume
+k create clusterrolebinding pvviewer-role-binding --clusterrole=pvviewer-role --serviceaccount=default:pvviewer
+k get pv --as system:servicaccount:default:pvviewer
+k auth can-i get pv --as system:servicaccount:default:pvviewer
+=============
